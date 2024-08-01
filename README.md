@@ -20,7 +20,7 @@ Install LibreELEC "System Tools" add-on to get gpio and i2c commands.
 
 Copy `power.sh` to `/storage/scripts/power.sh`.
 
-Create systemd service
+Create systemd service definition `/storage/.config/system.d/power.service`
 
 ```
 [Unit]
